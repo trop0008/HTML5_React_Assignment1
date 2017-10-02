@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+    max-width: 95%;
+    min-width: 25rem;
+    font-family: "Arial", "Helvetica", sans-serif;
+    line-height: 1.5;
+    padding: 0em 1em;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #006;
+    color: #fff;
+    height: 5em;
+    line-height: 5em;
+    margin-bottom: 3em;
+}
+
+footer {
+    padding-top: 2rem;
+    text-align: right;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    color: #555;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+    transition: all .3s ease-in;
+}
+
+li a {
+    color: #333;
+}
+
+li:hover a {
+    color: #700;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    padding: 12px;
+}
+
+form {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+input {
+    margin: 2px auto 15px auto;
+    padding: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"] {
+    display: block;
+    width: 90%;
+}
+
+textarea {
+    display: block;
+    width: 92%;
+    height: 10em;
+    word-wrap: break-word;
+    margin: 2px auto 15px auto;
+}
+
+button {
+    font-size: 1rem;
+    border: none;
+    background-color: #008;
+    color: #fff;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+    float: left;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #900;
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.buttonclass {
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    background-color: #008;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.buttonclass:hover {
+    background-color: #900;
+}
+
+.buttonDiv {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.taskDetails {
+    padding: 0rem 3rem;
+    text-align: left;
+}
+
+.container {
+    margin-bottom: 2em;
+}
