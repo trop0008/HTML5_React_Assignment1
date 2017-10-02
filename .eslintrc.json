@@ -21,8 +21,10 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-unused-vars": 0
     },
+    ,
     "globals": {
         "React": true,
         "ReactDOM": true,
